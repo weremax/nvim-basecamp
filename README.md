@@ -8,8 +8,8 @@ git clone https://github.com/weremax/nvim-basecamp.git ~/.config/nvim
 This is an extremely light weight NeoVim configuration as an editor for my ThinkPad X131e with a minimal Arch Linux install that does not have a GUI (command-line-only system).
 
 ### Packages
-- packer.nvim - use :PackerSync
-- mason :Mason for additional LSPs
+- packer.nvim - use :PackerSync to sync packages
+- mason use :Mason for additional LSPs
 - treesitter
 - lualine
 - telescope
