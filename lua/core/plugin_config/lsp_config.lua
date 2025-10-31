@@ -7,7 +7,7 @@ require("mason-lspconfig").setup {
 vim.lsp.enable({'lua_ls'})
 
 local on_attach = function(_, _)
-    vim.keymap.set('n', '<leader>rn', vendim.lsp.buf.rename, {})
+    vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
     vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
 
     vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
